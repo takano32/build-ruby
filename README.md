@@ -1,8 +1,8 @@
-# build-kernel
+# build-ruby
 
 ```
-$ docker build -t build-kernel .
-$ docker run -it --rm -p 8080:8000 build-kernel
+$ docker build -t build-ruby .
+$ docker run -it --rm -p 8080:8000 build-ruby
 ```
 Borwse http://localhost:8080/ and you can get built debian packages from `dpkg` directory.
 
