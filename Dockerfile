@@ -12,8 +12,8 @@ RUN apt-get install -y wget
 RUN mkdir /build-ruby
 # RUN cd /build-ruby && wget https://github.com/ruby/ruby/archive/v3_0_0.tar.gz
 # RUN cd /build-ruby && tar xf v3_0_0.tar.gz && mv ruby-3_0_0 ruby
-RUN cd /build-ruby && wget https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0-rc1.tar.gz
-RUN cd /build-ruby && tar xf ruby-3.0.0-rc1.tar.gz && mv ruby-3.0.0-rc1 ruby
+RUN cd /build-ruby && wget https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.0.tar.gz
+RUN cd /build-ruby && tar xf ruby-3.0.0.tar.gz && mv ruby-3.0.0 ruby
 
 RUN apt-get install -y autoconf
 RUN apt-get install -y gcc
